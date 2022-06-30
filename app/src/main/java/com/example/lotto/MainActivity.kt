@@ -15,7 +15,7 @@ import com.example.lotto.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
-
+    private var testValue = "이것은 테스트를 위한 것입니다. 의미 없는 변수입니다."
     private val numberTextList: List<TextView> by lazy {
         listOf<TextView>(
             binding.num1Tv,
